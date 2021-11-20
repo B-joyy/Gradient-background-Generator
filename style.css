@@ -24,3 +24,26 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 }
+
+#color1,
+#color2,
+#copy-btn {
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 5px #999;
+    margin-top: 5em;
+}
+
+#copy-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 0.75em;
+    transition: transform 1s;
+}
+
+#copy-btn:active {
+    transform: scale(0.7);
+}
